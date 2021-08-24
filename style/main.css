@@ -276,6 +276,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  height: 56px;
   width: 100%;
   background-color: #0f0f0f;
   padding: 10px;
@@ -288,6 +289,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.header__text {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .footer {

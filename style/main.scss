@@ -244,12 +244,18 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    height: 56px;
     width: 100%;
     background-color: rgb(15, 15, 15);
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    &__text{
+        font-size: 14px;
+        font-weight: normal;
+    }
 }
 
 .footer{
@@ -266,6 +272,7 @@ body{
         background-color:rgb(15, 15, 15) ;
         border: none;
         color: white;
+        ;
     }
 
 }
