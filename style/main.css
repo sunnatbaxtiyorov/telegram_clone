@@ -85,7 +85,7 @@ body {
 }
 
 .aside .profile:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #161616;
 }
 
 .aside .profile .profile-data h4 {
@@ -321,10 +321,24 @@ body {
           transform: rotate(140deg);
 }
 
+.emodji-group {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 45px;
+  right: 0;
+  display: none;
+  background-color: #181818;
+}
+
 .emodji {
   position: absolute;
   right: 57px;
   top: 7px;
+}
+
+.emodji:hover .emodji-group {
+  display: block;
 }
 
 .send {
@@ -353,13 +367,13 @@ body {
   gap: 10px;
 }
 
-#demo {
+#messageResult {
+  background-color: #181818;
+  padding: 10px;
+  border-radius: 12px;
   display: none;
   position: absolute;
-  right: 50px;
-  padding: 10px;
-  bottom: 75px;
-  border-radius: 12px;
-  background-color: #181818;
+  right: 2%;
+  bottom: 8%;
 }
 /*# sourceMappingURL=main.css.map */

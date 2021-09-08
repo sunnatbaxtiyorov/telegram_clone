@@ -361,6 +361,9 @@
             </aside>
             <main class="main">
                 <p id="text" class="text">Select a chat to start messaging</p>
+                <div class="emodji-group">
+                    emodji
+                </div>
                 <div  id="Tokyo" class="tabcontent">
                     <header class="header">
                        <div>
@@ -395,7 +398,12 @@
                             </svg>
                        </div>
                     </header>
-                    <p id="demo">soon </p>
+                    <div id="messageResult">
+
+                    </div>
+                    <div class="emodji-group">
+                        emodji
+                    </div>
                     <footer class="footer">
                         <svg class="attachment" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px" fill="#ccc">
                             <path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.5 16H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h12.5c1.38 0 2.5 1.12 2.5 2.5S20.88 13 19.5 13H9c-.55 0-1-.45-1-1s.45-1 1-1h9.5V9.5H9c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5h10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4H7c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5h11.5V16z"/>
@@ -412,7 +420,7 @@
                                 <path d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z"/>
                             </svg>
                         </button>
-                        <input type="text" placeholder="Write a message...">
+                        <input type="text" placeholder="Write a message..." id="writeMessage">
                     </footer>
                 </div>
                 <div id="London" class="tabcontent">
@@ -445,7 +453,9 @@
                              </svg>
                         </div>
                      </header>
-                     <p id="demo">soon </p>
+                    <div id="messageResult">
+                        
+                    </div>
                      <footer class="footer">
                          <svg class="attachment" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px" fill="#ccc">
                              <path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.5 16H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h12.5c1.38 0 2.5 1.12 2.5 2.5S20.88 13 19.5 13H9c-.55 0-1-.45-1-1s.45-1 1-1h9.5V9.5H9c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5h10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4H7c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5h11.5V16z"/>
@@ -462,7 +472,7 @@
                                  <path d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z"/>
                              </svg>
                          </button>
-                         <input type="text" placeholder="Write a message...">
+                         <input type="text" placeholder="Write a message..." id="writeMessage">
                      </footer>
                 </div>
                 <div id="sinf" class="tabcontent">
@@ -499,7 +509,12 @@
                              </svg>
                         </div>
                      </header>
-                     <p id="demo">soon </p>
+                     <div id="messageResult">
+
+                     </div>
+                     <div class="emodji-group">
+                        emodji
+                    </div>
                      <footer class="footer">
                          <svg class="attachment" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px" fill="#ccc">
                              <path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.5 16H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h12.5c1.38 0 2.5 1.12 2.5 2.5S20.88 13 19.5 13H9c-.55 0-1-.45-1-1s.45-1 1-1h9.5V9.5H9c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5h10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4H7c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5h11.5V16z"/>
@@ -516,7 +531,7 @@
                                  <path d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z"/>
                              </svg>
                          </button>
-                         <input type="text" placeholder="Write a message...">
+                         <input id="writeMessage" type="text" placeholder="Write a message...">
                      </footer>
                 </div>
                 <div id="Cr" class="tabcontent">
@@ -553,7 +568,7 @@
                              </svg>
                         </div>
                      </header>
-                     <p id="demo">soon </p>
+                     <div id="messageResult"></div>
                      <footer class="footer">
                          <svg class="attachment" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px" fill="#ccc">
                              <path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.5 16H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h12.5c1.38 0 2.5 1.12 2.5 2.5S20.88 13 19.5 13H9c-.55 0-1-.45-1-1s.45-1 1-1h9.5V9.5H9c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5h10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4H7c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5h11.5V16z"/>
@@ -570,7 +585,7 @@
                                  <path d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z"/>
                              </svg>
                          </button>
-                         <input type="text" placeholder="Write a message...">
+                         <input type="text" placeholder="Write a message..." id="writeMessage">
                      </footer>
                 </div>
                 <div id="Messi" class="tabcontent">
@@ -607,7 +622,7 @@
                              </svg>
                         </div>
                      </header>
-                     <p id="demo">soon </p>
+                    <div id="messageResult"></div>
                      <footer class="footer">
                          <svg class="attachment" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px" fill="#ccc">
                              <path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.5 16H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h12.5c1.38 0 2.5 1.12 2.5 2.5S20.88 13 19.5 13H9c-.55 0-1-.45-1-1s.45-1 1-1h9.5V9.5H9c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5h10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4H7c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5h11.5V16z"/>
@@ -624,7 +639,7 @@
                                  <path d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z"/>
                              </svg>
                          </button>
-                         <input type="text" placeholder="Write a message...">
+                         <input type="text" placeholder="Write a message..." id="writeMessage">
                      </footer>
                 </div>
                 <div id="Elzodxon" class="tabcontent">
@@ -661,7 +676,7 @@
                              </svg>
                         </div>
                      </header>
-                     <p id="demo">soon </p>
+                    <div id="messageResult"></div>
                      <footer class="footer">
                          <svg class="attachment" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px" fill="#ccc">
                              <path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.5 16H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h12.5c1.38 0 2.5 1.12 2.5 2.5S20.88 13 19.5 13H9c-.55 0-1-.45-1-1s.45-1 1-1h9.5V9.5H9c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5h10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4H7c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5h11.5V16z"/>
@@ -678,53 +693,13 @@
                                  <path d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z"/>
                              </svg>
                          </button>
-                         <input type="text" placeholder="Write a message...">
+                         <input type="text" placeholder="Write a message..." id="writeMessage">
                      </footer>
                 </div>
 
             </main>
         </div>
     </div>
-    <script>
-            function openNav() {
-  document.getElementById("mySidenav").style.width = "280px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-
-function textCloseNav(){
-    document.getElementById('text').style.display = 'none';
-}
-
-function btndemo(){
-    window.alert('Soon');
-}
-
-
-function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-    document.getElementById('text').style.display = 'none';
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the link that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-    </script>
+    <script src="style.js"></script>
 </body>
 </html>
