@@ -1,10 +1,24 @@
 function btndemo(){
     const message = document.getElementById('writeMessage');
     const result = document.getElementById('messageResult');
+    const btnClear = document.getElementById('send');
+    btnClear.addEventListener('click' , () => {
+      message.forEach(message => message.value = '');
+    })
+
     result.innerHTML = `${message.value}`;
     document.getElementById('messageResult').style.display = 'block';
-
+    
+    // for (let i = 0; i <result.length );
 }
+
+let btnClear = document.querySelector('#send');
+let inputs = document.querySelectorAll('#writeMessage');
+
+btnClear.addEventListener('click', () => {
+inputs.forEach(input => input.value = '');
+});
+
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "280px";
@@ -18,8 +32,6 @@ function openNav() {
   function textCloseNav(){
       document.getElementById('text').style.display = 'none';
   }
-  
-
   
   
   function openCity(evt, cityName) {
